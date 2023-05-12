@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background: #b3dfff;
+  height: 8vh;
+}
+
+main {
+  background: url("summer.png") no-repeat center center;
+  background-size: cover;
+  height: 92vh;
+}
+
+
+strong {
+  z-index: 2;
+  font-family: 'Avalors Personal Use';
+  font-size: 12px;
+  letter-spacing: 5px;
+  color: #FFFFFF;
+  text-shadow: 0 0 4px white;
+}
+
+#glow {
+  position: absolute;
+  display: flex;
+  width: 12rem;
+}
+
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+ }
+ 
+ .cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #fce475;
+  width: 45px;
+  height: 45px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+ }
+ 
+ .cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #ff4054;
+ }
+ 
+ .cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #234567;
+  stroke-width: 2;
+  -webkit-transform: translateX(-5px);
+      -ms-transform: translateX(-5px);
+          transform: translateX(-5px);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+ }
+ 
+ .cta:hover:before {
+  width: 100%;
+  background: #b1dae7;
+ }
+ 
+ .cta:hover svg {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+ }
+ 
+ .cta:active {
+  -webkit-transform: scale(0.95);
+      -ms-transform: scale(0.95);
+          transform: scale(0.95);
+ }
+
+.cookie {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+ }
+ 
+ .cookie:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #b1dae700;
+  width: 45px;
+  height: 45px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+ }
+ .cookie svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #23456700;
+  stroke-width: 2;
+  -webkit-transform: translateX(-5px);
+      -ms-transform: translateX(-5px);
+          transform: translateX(-5px);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+ }
